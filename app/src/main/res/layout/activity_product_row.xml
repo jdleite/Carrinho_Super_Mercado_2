@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/id_txt_product_id"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id_txt_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:text="Açucar"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/id_txt_product_quantity"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id_txt_price"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="200dp"
+            android:text="R$ 5,50"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/id_img_delete"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/close_foreground" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.carrinho_super_mercado.ui.activity.MainActivity">
+
+    <item
+        android:id="@+id/id_clear_all"
+        android:title="Limpar Lista"
+        android:icon="@drawable/clear_foreground"
+        app:showAsAction="always"
+        />
+</menu>
